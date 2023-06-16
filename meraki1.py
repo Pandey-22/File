@@ -1,0 +1,5 @@
+people=open("meraki1.txt","r")
+x=people.read()
+print(x)
+print(type(x))
+people.close()
